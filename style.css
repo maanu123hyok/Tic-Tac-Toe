@@ -1,0 +1,141 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #486584;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height:70vh;
+    width:70vh;
+    gap:3vmin;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+#box{
+    height:18vmin;
+    width:18vmin;
+    background-color: black;
+    box-shadow: 7px 7px 11px 5px rgb(0,183,78,0.9);
+    font-size: 4rem;
+    
+}
+.features{
+    justify-content: space-between;
+
+}
+#reset{
+    background-color: black;
+    color: white;
+    padding: 1.5rem;
+    margin:1rem;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left:-100rem;
+    border:2px orange solid;
+}
+
+.msgContainer{
+    display: none;
+}
+#wish1,#wish2{
+    margin-top:2rem;
+    color:#ffffc7;
+    font-size: 3rem;
+}
+#newGame{
+    margin-top: 1rem;
+    padding:1rem;
+    background-color: black;
+    color:white;
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+#undo{
+    background-color: black;
+    color: white;
+    padding: 1.5rem;
+    margin-left:1rem;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    margin-right: -100rem;
+    border:2px orange solid;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #548687;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+h1{
+    width: 100vw;
+    font-size: 58px;
+}
+.game{
+    height: 70vh;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5vmin;
+    border: 14px solid black;
+    margin-top: 30px;
+}
+.box{
+    height: 28%;
+    width: 30%;
+    color: #5a110e;
+    border-radius: 0.5rem;
+    border-width: 2.5px;
+    font-size: 700%;
+    box-shadow: 4px 3px 6px rgba(0,0,0,0.5);
+    background-color: #ffffc7;
+    border-color: black;
+}
+
+#reset,#newGame{
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 150px;
+    border-radius: 16px;
+    font-size: 20px;
+    border: none;
+}
+#reset{
+    margin-top: 30px;
+}
+#newGame{
+    margin-top: 10px;
+}
+.msgContainer{
+    width: 100vw;
+    margin-top: 20px;
+}
+#msg{
+    font-size: 50px;
+    color: #ffffc7;
+}
+.hide{
+    display: none;
+}
